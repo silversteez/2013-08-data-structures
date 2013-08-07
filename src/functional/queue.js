@@ -13,10 +13,11 @@ var makeQueue = function(){
   };
 
   queue.dequeue = function(){
+    var result = first;
     if(first < last){
-        first++;
-      }
-    return storage[first];
+      first++;
+    }
+    return storage[result];
   };
 
   queue.size = function(){
