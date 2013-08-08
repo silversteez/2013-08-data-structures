@@ -3,9 +3,9 @@ var Queue = function(){
 
   // Implement the methods below
   var queue = Object.create(queueMethods);
-    queue.storage = {};
-    queue.first = 0;
-    queue.last = 0;
+  queue.storage = {};
+  queue.first = 0;
+  queue.last = 0;
 
   return queue;
 };
